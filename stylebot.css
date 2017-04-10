@@ -1,0 +1,75 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10vh 2em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
+  text-align: center; }
+
+header {
+  align-items: center;
+  margin-bottom: 20px; }
+  header img {
+    height: 116px;
+    display: block;
+    margin: auto;
+    align-items: center; }
+  header h1 {
+    display: block;
+    font-size: 3em;
+    text-align: center; }
+  header h2 {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    color: #888; }
+
+section {
+  margin-bottom: 20px; }
+  section h3 {
+    font-size: 1em;
+    color: #888;
+    font-weight: 400;
+    display: block;
+    text-align: center; }
+  section form.validate {
+    color: #888;
+    font-weight: 400; }
+  section .front-end {
+    background: black;
+    border-radius: .25em;
+    width: 86px;
+    border: 0px;
+    color: white;
+    padding: .7em;
+    vertical-align: center; }
+  section .required {
+    border: 2px solid #888;
+    padding: 1em;
+    height: 46px;
+    width: 300px;
+    border-radius: .25em; }
+  section p {
+    max-width: 30em;
+    display: block;
+    text-align: center; }
+  section a {
+    color: #F73F51;
+    text-decoration: none; }
+    section a:hover {
+      color: #F73F51;
+      text-decoration: none; }
+
+footer h3 {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  color: #888; }
+
+footer i {
+  color: #5d5d5d;
+  margin-left: 10px; }
